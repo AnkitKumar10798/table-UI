@@ -1,0 +1,18 @@
+#data-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  table-layout:auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right:auto;
+  margin-bottom:auto;
+  
+}
+#data-table td, #data-table th {
+    border: 3px solid #ddd;
+    padding: 10px;
+  } 
+#data-table tr:nth-child(even)  
+{background-color: #f2f2f2;
+  }
