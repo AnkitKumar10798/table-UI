@@ -24,12 +24,6 @@ export class NewEntryComponent implements OnInit {
   newEntry()
   {
   
-   let customerSelect: HTMLSelectElement = document.getElementById(
-    "customer1"
-  )! as HTMLSelectElement;
-  let roleSelect: HTMLSelectElement = document.getElementById(
-    "role1"
-  )! as HTMLSelectElement;
    let firstname = (document.getElementById("fname")! as HTMLInputElement)
    .value;
  let middlename = (document.getElementById("mname")! as HTMLInputElement)
